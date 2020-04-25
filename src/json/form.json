@@ -1,0 +1,30 @@
+{
+    "username": {
+        "type": "text",
+        "name": "username",
+        "label": "User Name",
+        "min": 6
+    },
+    "password": {
+        "type": "password",
+        "name": "password",
+        "label": "password",
+        "min": 6 
+    },
+    "remember": {
+        "type": "checkbox",
+        "name": "remember",
+        "label": "remember me?"
+        
+    },
+    "description": {
+        "type": "textarea",
+        "name": "description",
+        "label": "Description"
+    },
+    "country": {
+        "type": "option",
+        "name": "country",
+        "options": ["Palestine", "Syria", "Egypt"]
+    }
+}
